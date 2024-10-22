@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.themeColors{
+  color: rgba(215, 244, 196, 1);
+  color: rgba(196, 244, 201, 1);
+  color: rgba(196, 244, 225, 1);
+  color: rgba(196, 239, 244, 1);
+  color: rgba(196, 215, 244, 1);
+  color: rgba(201, 196, 244, 1);
+
+  color: rgba(110, 137, 92, 1);
+  color: rgba(92, 137, 97, 1);
+  color: rgba(92, 137, 119, 1);
+  color: rgba(92, 133, 137, 1);
+  color: rgba(92, 110, 137, 1);
+  color: rgba(97, 92, 137, 1);
+}
+
+body{
+  background-color: rgba(215, 244, 196, 1);
+  color:#fff;
+  font-family:sans-serif;
+  text-align:center;
+  padding:1rem;
+}
+
+main{
+  background-color: rgba(92, 137, 97, .45);
+  max-width:80vw;
+  margin:0 auto;
+  padding:1rem;
+}
+
+li{
+  list-style: none;
+  padding:.15rem;
+}
+
+ol.steps{
+  text-align:left;
+  padding:1rem 1rem 1rem 2rem;
+}
+
+ol.steps > li{
+  list-style:decimal;
+}
+
+p{
+  margin:0;
+  padding:1rem;
+}
+
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p{
+  padding-top:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+  -webkit-text-stroke-width: .038rem;
+  -webkit-text-stroke-color: black;
+  margin:0;
+  padding-top:1rem;
+  padding-bottom: .25rem;
+}
+
+h1,
+h3{
+  color: rgba(201, 196, 244, 1);
+}
+
+h2,
+a{
+  color: rgba(196, 239, 244, 1);
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width:80vw;
+}
